@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class = "container">
+
+    <!-- title -->
+    <h1><span class = "title-bg">AI Meme</span> Generator</h1>
+
+    <div class = "error-msg">
+        {{error_message}}
+    </div>
+
+    <!-- image section -->
+    <div class = "image-div">
+
+        <!-- image  -->
+        <img class = "meme-image" src="{{url_for('static',filename = 'images/'+image_path)}}" alt="Meme Image">
+
+    </div>
+    <div class = "download-section">
+        <a href="../static/images/output.jpg" download>  <button class = "download-button">Download</button></a>
+    </div>
+    <!-- form -->
+    <form action="/submit" method="post">
+        <input class = "input" type="text" name="user_input" placeholder="Define your meme subject here" title="Define Yor Context" required>
+        <input class = "generate-button" type="submit" value = "Generate">
+    </form>
+    
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
+

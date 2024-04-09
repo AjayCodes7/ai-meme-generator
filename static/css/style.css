@@ -1,0 +1,75 @@
+    /* title */
+h1{
+    font-family:monospace;
+    font-size:60px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.title-bg{
+    background-color: black;
+    color: white;
+}
+
+.error-msg{
+    height:40px;
+    color: red;
+    font-weight: bold;
+}
+
+/* body */
+.container{
+    width: 80%;
+    height:675px;
+    text-align: center;
+    padding:0 10%;
+    position: relative;
+}
+
+/* main content */
+.image-div{
+    display: flex;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+/* image properties */
+.meme-image{
+    width: auto;
+    height: 400px;
+}
+
+
+/* user input  */
+.input{
+    height: 45px;
+    width:500px;
+}
+
+.generate-button{
+    height:50px;
+    width: 80px;
+    background-color: green;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+}
+
+.download-section{
+    height: 50px;
+}
+
+.download-button{
+    height:30px;
+    width: 80px;
+    border: 0px;
+    border-radius: 4px;
+    background: #adadad;
+    cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Text Boxes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <div id="container">
+        <img id="image" src="{{ url_for('static', filename='image.jpg') }}" alt="Image">
+
+        <div id="text-box1" class="text-box draggable" contenteditable="true">
+            Enter text 1
+        </div>
+
+        <div id="text-box2" class="text-box draggable" contenteditable="true">
+            Enter text 2
+        </div>
+
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
