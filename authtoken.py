@@ -1,2 +1,0 @@
-auth_token = "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"
-OPEN_AI_KEY = "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"
