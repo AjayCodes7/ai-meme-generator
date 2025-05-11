@@ -16,8 +16,8 @@ Follow the below steps
       openai==1.23.2
    ```
    > Any suitable versions at the time you installation
-3. Create a python file called ```authtoken.py```
-   Place your openAI key and Hugging face Access Token here.
+3. Create a python file called ```authtoken.py```  
+   Place your openAI key and Hugging face Access Token here.  
    **Example**:
      ```
      auth_token = "Your-hugging-face-access-token"
