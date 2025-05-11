@@ -5,7 +5,7 @@ uses GPT-based models for caption generation and image models (like Stable Diffu
 generate or select suitable images. The goal is to automate meme creation using advanced AI,
 targeting content creation efficiency and creativity.
 
-# How to run this thing?
+## How to run this thing?
 Follow the below steps
 1. Clone the respository
 2. Install the required packages
@@ -17,7 +17,7 @@ Follow the below steps
    ```
    > Any suitable versions at the time you installation
 3. Create a python file called ```authtoken.py```
-   - Place your openAI key and Hugging face Access Token here
+   Place your openAI key and Hugging face Access Token here.
    **Example**:
      ```
      auth_token = "Your-hugging-face-access-token"
