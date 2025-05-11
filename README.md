@@ -15,7 +15,7 @@ Follow the below steps
       Pillow==10.3.0
       openai==1.23.2
    ```
-   > Any suitable versions at the time you installation
+   > You may use any suitable versions at the time of your installation
 3. Create a python file called ```authtoken.py```  
    Place your openAI key and Hugging face Access Token here.  
    **Example**:
