@@ -23,4 +23,4 @@ Follow the below steps
      auth_token = "Your-hugging-face-access-token"
      OPEN_AI_KEY = "Your-open-ai-key-here"
      ```
-4. Here we go! Your setup is done. Open the application in the browser.
+4. Here we go! Your setup is done. Run ```app.py```.
